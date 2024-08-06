@@ -17,6 +17,7 @@ public class Main {
         System.out.println(car.color);
         System.out.println(car.model);
         System.out.println(car.speed);
+
 // Employee object
 
         Employee employee = new Employee();
@@ -24,6 +25,16 @@ public class Main {
         employee.workingItDepartment();
 
         System.out.println(employee.employee_id);
+
+
+
+        // rectangle
+
+        Rectangle r1 = new Rectangle(),r2 = new Rectangle();
+        r1.insert(11, 3);
+        r2.insert(23, 16);
+        r1.calculateArea();
+        r2.calculateArea();
 
     }
 }
