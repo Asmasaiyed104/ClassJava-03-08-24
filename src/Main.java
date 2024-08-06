@@ -22,29 +22,8 @@ public class Main {
         Employee employee = new Employee();
         employee.leadDeveloperEmployee();
         employee.workingItDepartment();
-        employee.insert(101,"Anshukh", 45000);
+
         System.out.println(employee.employee_id);
-
-
-        // student object
-        Student student = new Student();
-        // initialize with reference variable
-        student.student_id = 234565;
-        student.student_name="Asma";
-        student.student_email="az104@gmail.com";
-        System.out.println(student.student_name +  " " +student.student_id + " " +student.student_email );
-
-
-        // rectangle
-
-        Rectangle rectangle1 = new Rectangle(),
-                rectangle2 = new Rectangle();
-
-        rectangle1.insert(11,5);
-        rectangle2.insert(3,15);
-        rectangle1.calculateArea();
-        rectangle2.calculateArea();
-
 
     }
 }
